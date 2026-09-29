@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="220" viewBox="0 0 960 220" role="img" aria-labelledby="title desc">
+  <title id="title">dixtdf</title>
+  <desc id="desc">Build it. Use it. Share it.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="0.55" stop-color="#102b3e"/>
+      <stop offset="1" stop-color="#0e5667"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#7dd3fc" opacity="0.17"/>
+    </pattern>
+    <clipPath id="corners">
+      <rect width="960" height="220" rx="20"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#corners)">
+    <rect width="960" height="220" fill="url(#background)"/>
+    <rect width="960" height="220" fill="url(#dots)"/>
+    <circle cx="804" cy="84" r="190" fill="url(#glow)"/>
+    <path d="M640 220 780 0M718 220 858 0M796 220 936 0" fill="none" stroke="#7dd3fc" stroke-opacity="0.08" stroke-width="1"/>
+
+    <rect x="56" y="47" width="8" height="8" rx="2" fill="#38bdf8"/>
+    <text x="78" y="57" font-family="Consolas, Menlo, monospace" font-size="14" letter-spacing="3" fill="#93c5d6">OPEN SOURCE · PERSONAL SPACE</text>
+    <text x="54" y="132" font-family="Segoe UI, Arial, sans-serif" font-size="72" font-weight="700" letter-spacing="-3" fill="#f8fafc">dixtdf</text>
+    <text x="58" y="170" font-family="Segoe UI, Arial, sans-serif" font-size="19" letter-spacing="1" fill="#bae6fd">Build it. Use it. Share it.</text>
+
+    <rect x="678" y="66" width="220" height="114" rx="14" fill="#071726" fill-opacity="0.74" stroke="#7dd3fc" stroke-opacity="0.30"/>
+    <circle cx="700" cy="87" r="4" fill="#fb7185"/>
+    <circle cx="715" cy="87" r="4" fill="#fbbf24"/>
+    <circle cx="730" cy="87" r="4" fill="#4ade80"/>
+    <path d="M678 102h220" stroke="#7dd3fc" stroke-opacity="0.20"/>
+    <text x="698" y="132" font-family="Consolas, Menlo, monospace" font-size="14" fill="#67e8f9">$ build</text>
+    <text x="698" y="156" font-family="Consolas, Menlo, monospace" font-size="13" fill="#cbd5e1">make ideas useful<tspan fill="#67e8f9">_</tspan></text>
+  </g>
+</svg>
